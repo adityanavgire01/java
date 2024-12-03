@@ -1,0 +1,30 @@
+Linear data structure
+- Arrays, Linkieed lists, stacks, queyes.
+
+Non-linear DS - element connected to n number of elements in the
+- Trees, Graphs
+
+
+static ds - memory allocated at compile time
+
+dynamic ds - memory allocated at run time
+
+Common operations - 
+Searching, Sorting Insertion , Updation, Deletion
+
+Stack is an ADT -> which uses either Arrays or Linked lists for implementation
+
+An ADT tells what is to be done and data structure tells how it is to be done.
+
+---------------
+Arrays -> kunal kushawaha
+heap
+- heap is a region of comp memory used for dynamic memory allocation 
+- It's a large pool of memory where objects are dynamically stored during program execution - Objects created with new keyword are always stored in heap memory.
+- Objects remain in heap memory until they are no longer referenced - and then garbage collected
+
+- declaration of referece variables etc -> at compile time
+- intialization of obbjects happens at run time
+
+dynamic memory allocation -> at the time of runtime memory allocation happens
+
