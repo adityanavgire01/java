@@ -28,3 +28,23 @@ heap
 
 dynamic memory allocation -> at the time of runtime memory allocation happens
 
+* 2d array
+- arrays of arrays in heap -> 
+-> array.length -> number of rows
+-> array[0].length -> number of columns
+
+* why do we need array lists
+- so in order to handel the dynamic memory allocation we use array lists
+- part of the collection framework in java - java.util.package
+- ArrayList<Integer> arrl = new ArrayList<>(); - here Integer is a wrapper class. - it encapsulate a primitive data type into an object. - it allows primitive data types to be used as objects.
+- Here size is fixed but it checks when the array is full and then it doubles the size of the array. -> amortized time complexity.
+
+Questions to be solved
+- create a swap functions for arrays - ArrayList
+- max function for both
+- max item in the range
+- reversing using swap -> aka 2 pointer method
+
+- Arrays in java are passed by referece and not by value.
+
+
