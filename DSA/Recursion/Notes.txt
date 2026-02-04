@@ -1,0 +1,36 @@
+
+- 16 Jan 2025
+
+ All the function calls they go in the stack memory.
+- While the function is not finised executing it will reamain in stack.
+- "main" function is the first func to get called and last one to complete its execution.
+- when function is finished executing, and the flow of the program is restored to where the function was called.
+- base condition: A condition where our recursion, will stop making new calls
+- if base condition not given the function will continue to capture memory in stack -> thus causing a stack overflow error
+- Recursion: a function calling itself.
+- why recursion : it helps us solving bigger complex problems in simpler way.
+- you can convert recursion solution to iteration and vice versa
+- space complexity is not constant because of recursion calls.
+- helps us in breaking down bigger problems to smaller problems
+
+- when to know to use recursion: see if you can break down the problem, eg - fibonaci number
+- when you write a recursion in a formula - it is called recurrance relation
+- the base condition is represented with the answers we already have
+- time complexity of fib using recursion - 2^n or 
+
+- when you have the last statement in the function call -> it is known as tail recursion
+
+- types of recurrance relation
+- linea
+- divide and conquer
+- if in the recursion call two or more calls are doing sam work -> use dynamic programming
+- * for interviews -> recursion + dynamic programming (memoization)
+
+- Binary tree using recursion
+- ** Variables to be considered: arguments, return type, body of function
+- start, end , mid 
+- variables that need to be passed in the recurion function must be included in arguments
+- variables which are "specific" to that function call is included in the "body of function"
+- when you are having a function with return type - during recursion call make sure to return it
+
+
